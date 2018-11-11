@@ -4,6 +4,6 @@ fn main() {
     println!("My array = {:?}", arr);
 
     for element in arr.iter() {
-        println!("A double value of my array = {}", element * 2);
+        println!("A double value of array = {}", element * 2);
     }
 }
