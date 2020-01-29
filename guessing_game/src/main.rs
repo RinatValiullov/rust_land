@@ -5,6 +5,7 @@ fn main() {
 
     println!("Please, input your guess.");
 
+    // creating a mutable variable `guess` - store inputs
     let mut guess = String::new();
 
     io::stdin()
